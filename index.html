@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Normalize Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--My Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" 
+    rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>MenuHamburguerV1</title>
+</head>
+<body>
+<header>
+    <nav class="side-bar">
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+
+        <div class="side-list">
+            <ul>
+                <li class="side-item"><a href="#" class="side-link">Dashboard</a></li>
+                <li class="side-item"><a href="#" class="side-link">Create</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./assets/img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul>
+            <li class="side-item"><a href="#" class="side-link">Dashboard</a></li>
+            <li class="side-item"><a href="#" class="side-link">Create</a></li>
+        </ul>
+    </div>
+</header>
+
+
+
+<!--My Js-->   
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
